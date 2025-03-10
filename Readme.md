@@ -8,11 +8,11 @@ The main contributions of this paper can be summarized as follows:
 * We present, CASTOR, the first method designed to learn the number of regimes, their indices and their corresponding DAG from MTS with multiple regimes.
 * We show that the exact maximization of the score function identifies the ground truth regimes and graphs up to a permutation in the case of Gaussian noise with equal variance.
 * We show that CASTOR outperforms state-of-the-art methods in a wide variety of conditions, including linear and non-linear causal relationships and different number of nodes and regimes on both synthetic and real-world datasets.
- ------------------------------------------------------------------------
+
  # Tutorial:
  To use our code we provided a notebook tutorial that shows the different step
 
- --------------------------------------------------------------------------
+
  # References:
  If you find this code useful, please cite the following paper:
  ```bibtex
