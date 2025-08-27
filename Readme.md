@@ -55,9 +55,10 @@ pip install -r requirements.txt
 ## References:
 If you find this code useful, please cite the following paper:
  
-bibtex
+```bibtex
 @inproceedings{rahmanicausal,
   title={Causal Temporal Regime Structure Learning},
   author={Rahmani, Abdellah and Frossard, Pascal},
   booktitle={The 28th International Conference on Artificial Intelligence and Statistics}
 }
+```
