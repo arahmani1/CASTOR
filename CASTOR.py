@@ -98,7 +98,7 @@ class CASTOR:
                 N_regime = m//window
               
                 for it in range(max_it):
-                        model_n = [CASTOR_nonlinear(hidden_layers = (10,1),device = device)  for _ in range(N_regime)]
+                        model_n = [CASTOR_nonlinear(hidden_layers = (10,1))  for _ in range(N_regime)]
             
                         yl = np.zeros((m, n , N_regime))
                         if it == 0:
